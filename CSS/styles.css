@@ -1,0 +1,49 @@
+.Titulos {
+    text-align: center;
+    font-size: 50px;
+    font-family: Prost;
+}
+
+#Bienvenida-text{
+    text-align: center;
+}
+
+.contenedor-botones{
+    display: flex;
+    justify-content: center;
+    margin-top: 20 px;
+
+}
+
+.botones-main{
+    display: flex;
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 10px 10px;
+    text-decoration: none;
+    margin: 0 10px;
+    border-radius: 15%;
+}
+
+#gif-persona {
+    display: flex;
+    position: absolute;
+    width: 220px;
+    margin-right: auto;
+    top: 300px;
+}
+
+#gif-persona-2 {
+    display: flex;
+    position: absolute;
+    width: 220px;
+    right: 0;
+    top: 300px;
+    transform:  scaleX(-1);
+}
+
+@font-face {
+    font-family: Prost;
+    src: url(/Track-Habit/Recursos\ Imagenes\ etc/titulo.ttf);
+}
